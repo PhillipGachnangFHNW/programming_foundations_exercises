@@ -1,8 +1,18 @@
-# Lotto Generator
+# Lottery Generator
 
 ## Problem
-describe here your problem
+Describe here your problem!
+
+## Secenario
 
 ## User Stories
-### US1: Number gen.
-As a user I need nubers generated automatically because I want to maximize my chances to win.
+### US1: Random Numbers
+As a User I want....
+
+* item 1
+* item 2
+* item 3
+
+1) item 1
+2) item 2
+3) item 3
