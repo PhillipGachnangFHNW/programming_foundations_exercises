@@ -1,10 +1,14 @@
-s = {
-    'username': "phillip.gachnag@fhnw.ch",
-    'password': "mysupersecretpassword"
+data = {
+    "www.google.ch": "pw2",
+    "www.gmx.ch": "pw"
 }
 
-def p_secret(secret):
-    print(f"Name: {secret['username']}")
-    print(f"Password: {secret['password']}")
+search = "goo"
+for key in data.keys():
+    if search in key:
+        print(key)
 
-p_secret(s)
+if "www.facebook.com" not in data:
+    data["www.facebook.com"] = []
+data["www.facebook.com"].append("pw3476")
+
